@@ -50,9 +50,14 @@ export default function Home() {
             height={16}
             className="sm:w-5 sm:h-5"
           />
-          <p className="text-[#253a74] text-xs sm:text-sm md:text-lg">
+          <a
+            href="https://wa.me/9647880740880"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-[#253a74] text-xs sm:text-sm md:text-lg hover:underline cursor-pointer"
+          >
             + 964 788 0740 880
-          </p>
+          </a>
         </div>
         <div className="flex items-center gap-1 mb-1">
           <Image
@@ -62,19 +67,29 @@ export default function Home() {
             height={16}
             className="sm:w-5 sm:h-5"
           />
-          <p className="text-[#253a74] text-xs sm:text-sm md:text-lg break-all">
+          <a
+            href="mailto:info@madirenewableenergy.com"
+            className="text-[#253a74] text-xs sm:text-sm md:text-lg break-all hover:underline cursor-pointer"
+          >
             info@madirenewableenergy.com
-          </p>
+          </a>
         </div>
       </div>
       <div className="flex px-2 sm:pl-20 md:pl-20 pt-10 md:pt-20 gap-1 items-center">
-        <Image
-          src="/SVG/instaicon.svg"
-          alt="Instagram"
-          width={16}
-          height={16}
-          className="sm:w-5 sm:h-5"
-        />
+        <a
+          href="https://www.instagram.com/madi.renewableenergy?igsh=MTF0ZGF2M3d4eXluNQ=="
+          target="_blank"
+          rel="noopener noreferrer"
+          className="hover:opacity-80 transition-opacity"
+        >
+          <Image
+            src="/SVG/instaicon.svg"
+            alt="Instagram"
+            width={16}
+            height={16}
+            className="sm:w-5 sm:h-5"
+          />
+        </a>
         <Image
           src="/SVG/facebookIcon.svg"
           alt="Facebook"
